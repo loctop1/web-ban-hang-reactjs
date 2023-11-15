@@ -1,0 +1,79 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.backgruond {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img1{
+    height: 500px;
+  }
+  input{
+    width: 160%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-left: -30px;
+  }
+  button{
+    margin-right: -100px;
+    height: 40px;
+  }
+  .text1{
+    margin-top: 150px;
+  }
+  .text2{
+    margin-top: 20px;
+  }
+  .text3{
+    margin-top: 40px;
+  }
+  ul {
+    display: flex; /* Sử dụng flexbox để dàn ngang các mục danh sách */
+    justify-content: space-between; /* Căn giữa các mục và tạo khoảng trắng giữa chúng */
+    margin-left: -10px;
+  }
+  /* Đảm bảo trang web sẽ hiển thị đúng trên các thiết bị với độ rộng tối thiểu */
+@media screen and (max-width: 768px) {
+  /* Điều chỉnh kích thước của hình ảnh */
+  .img1 {
+      height: auto;
+  }
+
+  /* Căn giữa nội dung trang web */
+  .centered {
+      text-align: center;
+  }
+
+  /* Tùy chỉnh độ rộng của các cột */
+  .col-md-6 {
+      width: 100%;
+  }
+
+  /* Tùy chỉnh độ rộng của nút Sign up */
+  .btn-primary {
+      width: 100%;
+  }
+}
+
+/* Điều chỉnh giao diện cho các thiết bị với độ rộng lớn hơn */
+@media screen and (min-width: 992px) {
+  /* Tùy chỉnh kích thước của hình ảnh trong phần showcase */
+  .col-md-6 img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+
+  
